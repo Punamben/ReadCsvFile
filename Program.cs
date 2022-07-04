@@ -21,10 +21,10 @@ namespace ReadCsvAssessment
                     if (lineNumber == 0)
                     {
                         lineNumber++;
-                        continue;
+                        continue; 
                     }
 
-                    if (!string.IsNullOrWhiteSpace(line))
+                    if (!string.IsNullOrWhiteSpace(line)) 
                     {
                         var values = line.Split(',');
                         if (values.Length >= 4)
